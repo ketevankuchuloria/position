@@ -1,0 +1,257 @@
+/*header*/
+.headerclass {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin-bottom: 200px;
+	background-color: white;
+	z-index: 10;
+}
+
+.logo {
+	float: left;
+	margin-left: 50px;
+	margin-right: 50px;	
+}
+
+.nav {
+	float: left;
+}
+
+.nav-ul::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.li {
+	float: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+/*section1*/
+
+.bg-image {
+	background-image: url(../img/fashion.jpg);
+	height:382px;
+	width: 1600px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 140px;
+}
+
+.bg-div {
+	position: absolute;
+	left: 600px;
+	top:150px; 
+}
+
+.bg-h3 {
+	font-size: 22px;
+	color: white;
+	font-weight: bold;
+}
+
+.bg-h4 {
+	font-size: 48px;
+	color: white; 
+	font-weight: bold;
+}
+/*section2*/
+
+/*articlesection1*/
+.articlesection1 {
+	width: 1600px;
+	margin-top: 50px;
+	margin:0 auto;
+	margin-top: 150px;
+
+}
+.popular-past{
+	color: #FF7A00;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+
+.block1 {
+	float: left;
+	width: 640px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+
+.block2 {
+	float: left;
+	width: 640px;
+	margin-top: 50px;
+}
+
+.clear {
+	clear: both;
+}
+
+/*articlesection2*/
+ .articlesection2 {
+ 	width:1600px;
+ 	margin: 0 auto;
+ 	margin-top: 60px;
+ }
+
+.block3 {
+	float: left;
+	width: 640px;
+	margin-right: 50px;
+}
+
+.block4 {
+	float: left;
+	width: 640px;
+}
+
+
+
+
+/*fonts*/
+.h3 {
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.p {
+	font-size: 16px;
+}
+
+.read-more {
+	float: right;
+	color: #FF7A00;
+	font-size: 14px;
+	float: left;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+
+.test {
+	margin-top: 50px;
+}
+
+.divider1 {
+	width: 47px;
+	height: 4px;
+	background-color: #FF7A00;
+	float: left;
+}
+
+/*load more*/
+
+.loadmore-logo {
+	height:70px; 
+	width:190px;
+	background-color:#FF7A00;
+	margin-top: 50px;
+    position: relative;
+    margin:0 auto;
+    margin-top: 50px;
+
+}
+
+.loadmore-text {
+
+	position: absolute;
+	color: #FFFFFF;
+	font-weight: bold;
+	top:40%;
+	right: 25%;
+}
+	
+	
+/*black divider*/
+
+.black-divider {
+	width: 100%;
+	height: 270px;
+	background-color:#181C28;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+
+/*footer*/
+
+.company {
+	float: left;
+	width: 160px;
+	height: 220px;
+	margin-left: 50px;
+}
+
+.service {
+	float: left;
+	width: 160px;
+	height: 220px;
+	margin-left: 150px;
+
+}
+
+.orders {
+    float: left;
+    width: 260px;
+    height: 220px;
+    margin-left: 150px;
+}
+
+
+.payment {
+	float: left;
+	width: 260px;
+	height: 220px;
+	margin-left: 150px;
+}
+
+
+
+/*footer fonts*/
+.footer {
+	width: 1600px;
+	margin:0 auto;
+}
+
+.footer-h3 {
+	color: #282828;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.footer-ul {
+	color:#7B7B7B;
+	line-height: 40px;
+	font-weight: bold;
+}
+
+.copyright {
+	float: right;
+	margin-top: 20px;
+	color:#7B7B7B;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
